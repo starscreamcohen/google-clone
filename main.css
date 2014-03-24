@@ -1,0 +1,231 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Begin Custom CSS */
+
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+} 
+
+body {
+ 
+}
+
+
+
+ul {
+	
+	position: relative;
+	top: 10px;
+	float: right;
+	margin-right: 18px;
+	
+}
+
+li {
+	display: inline-block;
+	padding-right: 6px;
+	font-size: .75em;
+	font-family: Arial;
+}
+
+li a:hover {
+	border-bottom: 1px solid;
+}
+
+li #grid-link:hover {
+	border-bottom: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+img#grid {
+	position: relative;
+	top: 5px;
+	left: 5px;
+	width: 60%;
+}
+
+
+
+#sign-in-font {
+	width: 60px;
+	height: 100px;
+	background-color: #1975FF;
+	padding: 6px 12px;
+	color: #fff;
+	font-family: Arial;
+	font-weight: 700;
+}
+
+
+
+
+
+
+
+div#logo-div {
+	
+	clear: right;
+	padding-top: 145px;
+	
+}
+
+.google-logo {
+	display: block;
+    margin: auto;
+    width: 250px;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+input {
+	display: block;
+	margin: auto;
+	background-size: 25px;
+	width: 520px;
+	height: 28px;
+	border: 1px solid #DEDEDE;
+
+}
+
+div.wrapper fieldset img {
+	position: absolute;
+	width: 20px;
+	
+}
+
+input:hover {
+	border: 1px solid #9B9B9B;
+}
+
+input:focus {
+	border: .75px solid #2E5CE6;
+	box-shadow: none;
+
+}
+
+
+
+
+
+#btn-search {
+	position: relative;
+	top: 10px;
+	left: 590px;
+	width: 100px;
+	height: 30px;
+	font-size: .63em;
+	font-family: Arial;
+	background-color: #E6E6E6;
+	border: 1px solid #BFBFBF;
+	border-radius: 5%;
+	padding: 5px 7px;
+	
+}
+
+#btn-lucky {
+	position: relative;
+	top: 10px;
+	left: 600px;
+	width: 100px;
+	height: 30px;
+	font-size: .63em;
+	font-family: Arial;
+	background-color: #E6E6E6;
+	border: 1px solid #BFBFBF;
+	border-radius: 5%;
+	padding: 5px 7px; 
+	
+}
+
+#bastard {
+	position: relative;
+	border-top: 1px solid #CFD4E6;
+	background-color: #EBEBF0;
+	width: 100%;
+	height: 37px;
+	top: 252px;
+}
+
+#promo {
+	position: absolute;
+	right: 1080px;
+	
+}
+
+#promo li a, #terms li a{
+	font-size: 1em;
+	color: #8A8A8A;
+}
+
+#promo li a:hover, #terms li a:hover {
+	border-bottom: 1px solid #8A8A8A;
+}
+
+#promo li {
+	padding-right: 30px;
+}
+
+#terms li {
+	padding-left: 25px;
+	
+}
